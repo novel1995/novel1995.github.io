@@ -1,0 +1,22 @@
+.portfolio__button {
+  padding: 15px 20px;
+  color: #212121;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.portfolio__button:hover {
+  color: #ffffff;
+  background-color: #00897b;
+}
+
+.filter {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.filter__img {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
