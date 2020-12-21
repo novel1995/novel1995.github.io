@@ -35,3 +35,10 @@
   transition: 0.3s;
   transform: rotate(360deg);
 }
+
+@media (max-width: 768px) {
+  .team-slider__link {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}

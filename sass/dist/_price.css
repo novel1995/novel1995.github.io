@@ -1,7 +1,6 @@
 .price {
   background-color: #f0f0f0;
 }
-
 .price__button {
   max-width: 180px;
   font-size: 20px;
@@ -10,11 +9,9 @@
   margin-top: 50px;
   margin-bottom: 64px;
 }
-
 .price__button:hover {
   border: none;
 }
-
 .price-card {
   background-color: #ffffff;
   max-width: 370px;
@@ -22,11 +19,9 @@
   align-items: center;
   text-align: center;
 }
-
 .price-card:hover {
   box-shadow: 0 3px 25px rgba(0, 0, 0, 0.35);
 }
-
 .price-card__header {
   background-image: url(../img/price/price-title-bg.png);
   background-size: cover;
@@ -35,31 +30,25 @@
   padding-top: 35px;
   max-height: 205px;
 }
-
 .price-card__title {
   font-size: 25px;
   color: #ffffff;
 }
-
 .price-card__subtitle {
   font-size: 50px;
   color: #fff;
 }
-
 .price-card__subtitle sup {
   font-size: 25px;
   vertical-align: middle;
 }
-
 .price-card__subtitle sub {
   font-size: 17px;
   vertical-align: middle;
 }
-
 .price-card__options {
   padding-top: 50px;
 }
-
 .price-card__options__item {
   margin-bottom: 40px;
   border-bottom: 1px solid #dfdfdf;

@@ -14,25 +14,40 @@
 
 <body>
     <header class="menu-bar">
+
         <div class="container">
-            <div class="row">
-                <div class="col-xl-2">
-                    <img src="" alt="logo" class="logo">
+
+
+        </div>
+        <div class="row">
+            <div class="col-xl-2 logo-bar">
+                <img src="https://img.icons8.com/ios/50/ffffff/webhook.png" />
+                <span class="logo-title">Web-Company</span>
+                <div class="mobile">
+                    <a href="/" class="mobile-link"><i class="fas fa-home"></i></a>
+                    <a href="#about" class="mobile-link"><i class="fas fa-info-circle"></i></a>
+                    <a href="#footer" class="mobile-link"><i class="fas fa-user-edit"></i></a>
+                    <a href="#" class="mobile-link"><i class="fa fa-search " aria-hidden="true"></i></a>
+
                 </div>
-                <div class="col-xl-8 ml-auto align-self-center">
-                    <nav class="nav-bar">
-                        <ul class="menu d-flex justify-content-end">
-                            <li class="menu-item"><a href="#" class="menu-item__link">Home</a></li>
-                            <li class="menu-item"><a href="#" class="menu-item__link">About</a></li>
-                            <li class="menu-item"><a href="#" class="menu-item__link">Servicing</a></li>
-                            <li class="menu-item"><a href="#" class="menu-item__link">Portfolio</a></li>
-                            <li class="menu-item"><a href="#" class="menu-item__link">Blog</a></li>
-                            <li class="menu-item"><a href="#" class="menu-item__link">Contact Us</a></li>
-                            <li class="menu-item"><i class="fa fa-search menu-item__link" aria-hidden="true"></i></li>
-                        </ul>
-                    </nav>
-                </div>
+
+
             </div>
+            <div class="col-xl-8 ml-auto align-self-center">
+                <nav class="nav-bar">
+
+                    <ul class="menu  d-flex justify-content-end" id="menu">
+                        <li class="menu-item"><a href="/" class="menu-item__link">Home</a></li>
+                        <li class="menu-item"><a href="#about" class="menu-item__link">About</a></li>
+                        <li class="menu-item"><a href="#servicing" class="menu-item__link">Servicing</a></li>
+                        <li class="menu-item"><a href="#portfolio" class="menu-item__link">Portfolio</a></li>
+                        <li class="menu-item"><a href="#blog" class="menu-item__link">Blog</a></li>
+                        <li class="menu-item"><a href="#footer" class="menu-item__link">Contact Us</a></li>
+                        <li class="menu-item"><i class="fa fa-search menu-item__link" aria-hidden="true"></i></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         </div>
     </header>
     <header class="header">
@@ -52,37 +67,10 @@
             </div>
         </div>
     </header>
-    <section class="about section">
-        <div class="container">
-            <div class="row justify-content-center ">
-                <div class="col-md-8">
-                    <h2 class="section-title">About Us</h2>
-                    <span class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</span>
-                </div>
-            </div>
-            <div class="row justify-content-around">
-                <div class="col-xl-4">
-
-                    <img src="img/about/about-img-1.png" alt="about-image" class="about__img">
-                    <h3 class="about__title">Awesome Icons</h3>
-                    <span class="about__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span>
-                </div>
-                <div class="col-xl-4">
-
-                    <img src="img/about/about-img-2.png" alt="about-image" class="about__img">
-                    <h3 class="about__title">One Page</h3>
-                    <span class="about__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span>
-                </div>
-                <div class="col-xl-4">
-
-                    <img src="img/about/about-img-3.png" alt="about-image" class="about__img">
-                    <h3 class="about__title">Fully Responsive</h3>
-                    <span class="about__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span>
-                </div>
-            </div>
+    <section class="about section" id="about">
         </div>
     </section>
-    <section class="section services">
+    <section class="section services" id="servicing">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
@@ -91,7 +79,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-6">
                     <div class="card">
                         <i class="fab fa-searchengin card__image"></i>
                         <h3 class="card__title">Research</h3>
@@ -99,7 +87,7 @@
                         <button class="card__button ">READ MORE</button>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-6">
                     <div class="card">
                         <i class="fas fa-briefcase card__image"></i>
                         <h3 class="card__title">Portfolio</h3>
@@ -107,7 +95,7 @@
                         <button class="card__button ">READ MORE</button>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-6">
                     <div class="card">
                         <i class="fas fa-info card__image"></i>
                         <h3 class="card__title">Support</h3>
@@ -115,7 +103,7 @@
                         <button class="card__button ">READ MORE</button>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-6">
                     <div class="card">
                         <i class="fas fa-book-open card__image"></i>
                         <h3 class="card__title">Documentation</h3>
@@ -123,7 +111,7 @@
                         <button class="card__button ">READ MORE</button>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-6">
                     <div class="card">
                         <i class="fab fa-react card__image"></i>
                         <h3 class="card__title">Development</h3>
@@ -131,7 +119,7 @@
                         <button class="card__button ">READ MORE</button>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6 col-sm-6">
                     <div class="card">
                         <i class="fab fa-figma card__image"></i>
                         <h3 class="card__title">Desing</h3>
@@ -142,7 +130,7 @@
             </div>
         </div>
     </section>
-    <section class="portfolio section">
+    <section class="portfolio section" id="portfolio">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
@@ -181,7 +169,7 @@
                 </div>
             </div>
             <div class="row justify-content-around ">
-                <div class="col-xl-4 col-md-12">
+                <div class="col-xl-4 col-md-4">
                     <div class="price-card">
                         <div class="price-card__header">
                             <h3 class="price-card__title">Free Trail</h3>
@@ -196,7 +184,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-4">
                     <div class="price-card">
                         <div class="price-card__header">
                             <h3 class="price-card__title">Basic</h3>
@@ -211,7 +199,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-4">
                     <div class="price-card">
                         <div class="price-card__header">
                             <h3 class="price-card__title">Ultimates</h3>
@@ -364,7 +352,108 @@
         </div>
 
     </section>
+    <section class="section blog" id="blog">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="section-title">Blog</h2>
+                    <span class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</span>
+                </div>
+            </div>
+            <div class="row blog-left justify-content-between">
+                <div class="col-xl-6">
+                    <img src="img/blog/blog-image-2.png" alt="" class="blog__image img-fluid">
+                </div>
+                <div class="col-xl-6">
+                    <h4 class="blog__title">SEO Quis Vestibulum</h4>
+                    <div class="blog__info">
+                        <span class="blog__data"><i class="far fa-calendar-alt blog__icon"></i>14.07.2017</span>
+                        <span class="blog__dev"><i class="far fa-file blog__icon"></i>Development</span>
+                        <p class="blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row blog-right justify-content-between">
 
+                <div class="col-xl-6 ">
+                    <h4 class="blog__title">SEO Quis Vestibulum</h4>
+                    <div class="blog__info">
+                        <span class="blog__data"><i class="far fa-calendar-alt blog__icon"></i>14.07.2017</span>
+                        <span class="blog__dev"><i class="far fa-file blog__icon"></i>Development</span>
+                        <p class="blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <img src="img/blog/blog-image-1.png" alt="" class="blog__image img-fluid">
+                </div>
+
+            </div>
+
+
+            <div class="row blog-left justify-content-between">
+                <div class="col-xl-6">
+                    <img src="img/blog/blog-image-3.png" alt="" class="blog__image img-fluid">
+                </div>
+                <div class="col-xl-6">
+                    <h4 class="blog__title">SEO Quis Vestibulum</h4>
+                    <div class="blog__info">
+                        <span class="blog__data"><i class="far fa-calendar-alt blog__icon"></i>14.07.2017</span>
+                        <span class="blog__dev"><i class="far fa-file blog__icon"></i>Development</span>
+                        <p class="blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+                    </div>
+                </div>
+                <div class="col-xl-12"><button class="blog__button button-main">MORE VIEW</button></div>
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="footer-title">Contact Us</h2>
+                    <span class="footer-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</span>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <a href="https://goo.gl/maps/Fryvoxnca5RcxERTA" class="footer__icon"> <i class="far fa-lightbulb  "></i></a>
+                    <address class="footer__link">Nobinagar savar,Dhaka Bangladesh</address>
+
+
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <a href="tel:+8801743331996" class="footer__icon"><i class="fas fa-phone-volume "></i></a>
+                    <a href="tel:+8801743331996" class="footer__link">+8801743331996</a>
+                    <a href="tel:+8801928737807" class="footer__link second">+8801928737807</a>
+
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <a href="mailto:quickmasud@yahoo.com" class="footer__icon"><i class="far fa-envelope "></i></a>
+                    <a href="mailto:quickmasud@yahoo.com" class="footer__link">quickmasud@gmail.com</a>
+                    <a href="mailto:quickmasud@gmail.com" class="footer__link second">quickmasud@yahoo.com</a>
+
+                </div>
+            </div>
+            <div class="row justify-content-center form">
+
+                <div class="col-xl-5"><input class="footer-input" type="text" placeholder="Your Name" id="name"></div>
+                <div class="col-xl-5"><input class="footer-input" type="email" placeholder="Your Email" id="mail"></div>
+                <div class="col-xl-10"><textarea class="footer-area" id="text" cols="30" rows="10" placeholder="Write Massage"></textarea></div>
+                <div class="col-xl-2 offset-xl-7"><button class="send" id="send">SEND</button></div>
+
+
+
+
+            </div>
+        </div>
+
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/46784469e4.js" crossorigin="anonymous"></script>
     <script src=" https://use.fontawesome.com/33a680c963.js "></script>

@@ -54,3 +54,9 @@
 .card__image {
   font-size: 60px;
 }
+
+@media (max-width: 564px) {
+  .card_description {
+    display: none;
+  }
+}
