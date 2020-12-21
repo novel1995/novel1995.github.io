@@ -79,6 +79,12 @@
   font-size: 20px;
 }
 
+.send:hover {
+  border: 2px dotted #f1f1f1;
+  background: #04534b;
+  color: #ffffff;
+}
+
 .second {
   margin-top: 5px;
   margin-bottom: 20px;
